@@ -1,75 +1,134 @@
-# React + TypeScript + Vite
+An interactive 3D portfolio website showcasing my skills, projects, experience, and background as a full-stack developer.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The portfolio combines modern web development with immersive 3D elements to create an engaging and memorable way to explore my work.
 
-Currently, two official plugins are available:
+🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Portfolio: kaustubhjangam.vercel.app
 
-## React Compiler
+✨ Features
+Interactive 3D portfolio experience
+Responsive design for desktop, tablet, and mobile
+About Me section
+Skills and technology showcase
+Featured projects with project details
+Professional experience section
+Contact section
+Smooth animations and transitions
+Interactive 3D models and visual elements
+Modern and responsive UI
+🛠️ Tech Stack
+Frontend
+React.js
+JavaScript
+HTML5
+CSS3
+Tailwind CSS
+3D & Animation
+Three.js
+React Three Fiber
+React Three Drei
+Framer Motion
+Development Tools
+Vite
+Git
+GitHub
+VS Code
+📂 Project Structure
+portfolio/
+├── public/
+│   ├── assets/
+│   └── models/
+├── src/
+│   ├── components/
+│   ├── sections/
+│   ├── constants/
+│   ├── assets/
+│   ├── App.jsx
+│   └── main.jsx
+├── package.json
+└── README.md
+⚙️ Getting Started
+Prerequisites
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Make sure you have the following installed:
 
-## Expanding the ESLint configuration
+Node.js
+npm
+Git
+Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Clone the repository:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+git clone https://github.com/kaustubh99j/Portfolio-website
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Navigate to the project directory:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+cd your-portfolio
 
-```
+Install dependencies:
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+npm install
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Start the development server:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+npm run dev
 
-```
+The application will be available at the local development URL provided by Vite.
+
+🧩 Customization
+
+The portfolio is structured to make it easy to update personal information and project content.
+
+You can customize:
+
+Personal introduction
+Skills
+Work experience
+Education
+Projects
+Contact information
+Social media links
+3D models and visual elements
+📱 Responsive Design
+
+The portfolio is designed to provide a consistent experience across different screen sizes, including:
+
+Desktop
+Laptop
+Tablet
+Mobile
+🎯 Purpose
+
+This portfolio was built to provide a central place to showcase my development journey, technical skills, projects, and experience.
+
+Rather than presenting projects only through a traditional resume, the website provides an interactive way for recruiters and visitors to explore my work.
+
+📌 Featured Projects
+
+Some of the projects showcased in the portfolio include:
+
+CollabSpace
+
+A collaborative communication platform inspired by modern workplace messaging applications.
+
+Technologies: React, Firebase, JavaScript
+
+DocFlow
+
+An asynchronous document processing system designed to process PDF files using background jobs and queues.
+
+Technologies: Node.js, PostgreSQL, Redis, BullMQ
+
+RAG Evaluation Framework
+
+An evaluation framework for measuring the performance of Retrieval-Augmented Generation pipelines using retrieval and generation metrics.
+
+Technologies: Python, RAG, Ragas, FAISS
+
+📬 Contact
+
+If you'd like to discuss a project, opportunity, or collaboration, feel free to connect with me through the contact information available on my portfolio.
+
+Built with React, Three.js, and modern web technologies.
+Thank you for your attention, and I wish you a nice day!
