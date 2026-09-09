@@ -17,9 +17,8 @@ const Contact = () => {
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
-    const { target } = e;
-    const { name, value } = target;
-
+    const { name, value } = e.target;
+    
     setForm({
       ...form,
       [name]: value,
@@ -30,18 +29,18 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    emailjs
-      .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+    emailjs.send(
+        'service_l0yegl7',
+        'template_fuwry58',
+
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Kaustubh Jangam",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "kaustubh99j@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        'h0TL4dnUH5VvVfO3H'
       )
       .then(
         () => {
