@@ -4,7 +4,7 @@ The portfolio combines modern web development with immersive 3D elements to crea
 
 🚀 Live Demo
 
-Portfolio: kaustubhjangam.vercel.app
+Portfolio: https://kaustubhjangam.vercel.app
 
 ✨ Features
 Interactive 3D portfolio experience
